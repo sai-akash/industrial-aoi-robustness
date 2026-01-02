@@ -1,0 +1,8 @@
+{
+  "image_AUROC": 0.9600328207015991,
+  "image_F1Score": 0.9586777091026306,
+  "pixel_AUROC": 0.9912927150726318,
+  "pixel_F1Score": 0.3830641806125641,
+  "degradation": "none",
+  "severity": 0
+}

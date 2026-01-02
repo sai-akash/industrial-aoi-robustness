@@ -1,0 +1,11 @@
+torch
+torchvision
+anomalib
+albumentations
+matplotlib
+seaborn
+pandas
+numpy
+scikit-learn
+jupyter
+tqdm
