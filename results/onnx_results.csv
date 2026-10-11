@@ -1,0 +1,3 @@
+coreset_ratio,memory_bank_rows,embedding_shape,max_abs_diff_embedding,auroc_torch,auroc_onnx_backbone,backbone_torch_p50_ms,backbone_torch_p95_ms,backbone_onnx_p50_ms,backbone_onnx_p95_ms,knn_p50_ms,knn_p95_ms,anomaly_map_p50_ms,anomaly_map_p95_ms,full_torch_p50_ms,full_torch_p95_ms,full_onnx_p50_ms,full_onnx_p95_ms,backbone_speedup_onnx,full_speedup_onnx,sum_of_stages_torch_p50_ms,share_backbone,share_knn,share_anomaly_map
+0.01,3276,384x32x32,4e-05,0.9486,0.9486,25.49,28.63,11.93,14.43,13.73,15.53,9.41,10.17,47.27,50.36,36.04,38.95,2.14,1.31,48.63,0.52,0.28,0.19
+0.1,32768,384x32x32,4e-05,0.9537,0.9537,25.35,29.26,12.23,13.39,123.08,139.68,9.24,11.18,159.62,191.5,144.63,156.64,2.07,1.1,157.67,0.16,0.78,0.06

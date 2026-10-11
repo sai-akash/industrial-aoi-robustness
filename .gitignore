@@ -1,2 +1,31 @@
+# Python / Bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Datasets
+data/
+
+# Model checkpoints and large engine directories
+checkpoints/
+results/engine/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Nested unpack folder
+industrial-aoi-robustness-main/

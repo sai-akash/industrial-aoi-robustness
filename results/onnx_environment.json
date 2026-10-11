@@ -1,0 +1,9 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "torch": "2.8.0+xpu",
+  "onnxruntime": "1.31.0",
+  "anomalib": "2.7.0",
+  "threads": 4,
+  "seed": 42
+}

@@ -9,3 +9,5 @@ numpy
 scikit-learn
 jupyter
 tqdm
+onnx
+onnxruntime
