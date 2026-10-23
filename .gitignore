@@ -9,6 +9,8 @@ data/
 # Model checkpoints and large engine directories
 checkpoints/
 results/engine/
+results/stats/engine/
+results/stats/engine_padim/
 *.ckpt
 *.pt
 *.pth

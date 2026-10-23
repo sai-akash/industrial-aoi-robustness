@@ -1,0 +1,34 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "torch": "2.8.0+xpu",
+  "anomalib": "2.7.0",
+  "numpy": "2.4.6",
+  "scikit_learn": "1.7.1",
+  "opencv": "4.11.0",
+  "albumentations": "2.0.8",
+  "patchcore_coreset": 0.01,
+  "patchcore_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "padim_layers": [
+    "layer1",
+    "layer2",
+    "layer3"
+  ],
+  "backbone": "resnet18",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_boot": 2000,
+  "n_total_images": 160,
+  "n_val_cal_images": 82,
+  "n_test_eval_images": 78,
+  "threshold_raw_score_from_clean_val_f1": 11.0651,
+  "postprocessor_image_threshold": 11.1264,
+  "postprocessor_image_min": 9.9995,
+  "postprocessor_image_max": 16.701
+}
