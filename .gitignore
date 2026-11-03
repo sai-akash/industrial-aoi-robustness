@@ -31,3 +31,6 @@ env/
 
 # Nested unpack folder
 industrial-aoi-robustness-main/
+
+# Feature / distance caches for notebooks/09
+.cache/

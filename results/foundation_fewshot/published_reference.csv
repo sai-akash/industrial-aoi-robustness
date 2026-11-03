@@ -1,0 +1,10 @@
+method,k_shot,img_auroc,std,source
+WinCLIP,0,0.833,0.0,"WinCLIP paper, Table 10"
+WinCLIP,1,0.864,0.009,"WinCLIP paper, Table 10"
+WinCLIP,2,0.86,0.021,"WinCLIP paper, Table 10"
+WinCLIP,4,0.879,0.012,"WinCLIP paper, Table 10"
+AnomalyDINO-S,1,0.932,0.003,"AnomalyDINO paper, Table 6 (672 px)"
+AnomalyDINO-S,2,0.935,0.008,"AnomalyDINO paper, Table 6 (672 px)"
+AnomalyDINO-S,4,0.927,0.023,"AnomalyDINO paper, Table 6 (672 px)"
+AnomalyDINO-S,8,0.935,0.011,"AnomalyDINO paper, Table 6 (672 px)"
+AnomalyDINO-S,16,0.947,0.009,"AnomalyDINO paper, Table 6 (672 px)"

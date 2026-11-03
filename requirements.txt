@@ -11,3 +11,5 @@ jupyter
 tqdm
 onnx
 onnxruntime
+open-clip-torch
+transformers>=4.55

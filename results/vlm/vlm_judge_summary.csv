@@ -1,0 +1,5 @@
+model,mode,n_seeds,img_auroc_mean,img_auroc_std,img_auroc_ci_low,img_auroc_ci_high,fpr95_mean,said_yes_rate_good,said_yes_rate_defective,yes_no_prob_mass,latency_p50_ms,input_tokens,threads
+Qwen2-VL-2B,0-shot,1,0.833,0.0,0.7573,0.8971,0.7805,0.0,0.0588,0.9875,9417.2654,323,14
+Qwen2-VL-2B,1-shot,1,0.7596,0.0,0.6712,0.8468,0.7317,0.0,0.0252,0.9863,19042.1049,589,14
+SmolVLM-256M,0-shot,1,0.6114,0.0,0.5172,0.7057,0.9512,0.0,0.042,0.9454,1020.6904,121,14
+SmolVLM-256M,1-shot,3,0.6167,0.0122,0.5191,0.7144,0.9593,0.935,0.9412,0.738,1766.4787,196,14

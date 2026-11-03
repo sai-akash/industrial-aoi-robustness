@@ -1,0 +1,16 @@
+prompts,mode,diff_vs_default,ci_low,ci_high,ci_excludes_0
+B default-norm,0-shot global,0.0012,-0.0011,0.0042,False
+B default-norm,0-shot global+window-max,0.0,-0.0021,0.0023,False
+B default-norm,4-shot WinCLIP+,0.0011,0.0001,0.0022,True
+C defect-specific,0-shot global,0.0232,-0.0475,0.097,False
+C defect-specific,0-shot global+window-max,0.0246,-0.0533,0.1013,False
+C defect-specific,4-shot WinCLIP+,0.0047,-0.0371,0.0463,False
+D generic+specific,0-shot global,0.0379,-0.0169,0.099,False
+D generic+specific,0-shot global+window-max,0.0346,-0.0231,0.0941,False
+D generic+specific,4-shot WinCLIP+,0.0112,-0.0214,0.0442,False
+E multi-class,0-shot global,0.0201,-0.0663,0.1048,False
+E multi-class,0-shot global+window-max,0.032,-0.0566,0.12,False
+E multi-class,4-shot WinCLIP+,-0.0002,-0.0468,0.0455,False
+F metal-screw,0-shot global,0.0148,-0.0169,0.0451,False
+F metal-screw,0-shot global+window-max,0.0115,-0.018,0.0403,False
+F metal-screw,4-shot WinCLIP+,0.011,-0.0059,0.0286,False

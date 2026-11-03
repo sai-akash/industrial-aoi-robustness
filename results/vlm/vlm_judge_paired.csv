@@ -1,0 +1,7 @@
+vlm,vs,n_seeds,diff_auroc,ci_low,ci_high,ci_excludes_0
+Qwen2-VL-2B 0-shot,WinCLIP 0-shot,1,0.1365,0.0135,0.2505,True
+Qwen2-VL-2B 1-shot,WinCLIP+ 1-shot,1,-0.0348,-0.1584,0.0904,False
+Qwen2-VL-2B 1-shot,AnomalyDINO-S + rot8 1-shot,1,-0.0555,-0.1688,0.0553,False
+SmolVLM-256M 0-shot,WinCLIP 0-shot,1,-0.0851,-0.2033,0.0429,False
+SmolVLM-256M 1-shot,WinCLIP+ 1-shot,3,-0.138,-0.2792,0.0156,False
+SmolVLM-256M 1-shot,AnomalyDINO-S + rot8 1-shot,3,-0.2304,-0.339,-0.1194,True
