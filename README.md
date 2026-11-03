@@ -10,7 +10,7 @@ An evaluation of how vision-language models, foundation models and conventional 
 
 | Result | Evidence | Setting |
 |:---|:---|:---|
-| **Detection from one good image** | 0.845 image AUROC, vs. 0.464 for PatchCore | AnomalyDINO-S + rotation augmentation, 448 px, mean of 10 reference draws |
+| **Detection from one good image** | 0.845 image AUROC, vs. 0.544 for PatchCore with the same augmentation (0.464 without) | AnomalyDINO-S + rotation augmentation, 448 px, mean of 10 reference draws |
 | **Detection with no training images** | 0.833 image AUROC, vs. 0.697 for WinCLIP (+0.136, 95% CI [+0.014, +0.251]) | Qwen2-VL-2B, scored by its Yes/No probability, 9.4 s per image at 14 threads |
 | **Full data still wins** | PatchCore 0.969 with 320 images; best 16-image model 0.904 (-0.064, 95% CI [-0.125, -0.010]) | No coreset pruning, paired test on the 160 test images |
 | **7.5× faster CPU inference** | 331 ms → 44 ms (23 FPS) for a 0.018 AUROC drop; memory bank 25× smaller | PatchCore coreset 0.25 → 0.01, 256 px, batch 1, 4 threads |
